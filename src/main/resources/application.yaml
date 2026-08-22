@@ -12,6 +12,17 @@ spring:
       port: 6379
       password: 123456
       database: 0
+  datasource:
+    url: jdbc:mysql://192.168.31.25:3306/jc-ai?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    open-in-view: false
+    database-platform: org.hibernate.dialect.MySQLDialect
   ai:
     openai:
       # 如果用 DeepSeek，改成 https://api.deepseek.com

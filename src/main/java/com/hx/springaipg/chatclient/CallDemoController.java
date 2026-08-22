@@ -1,4 +1,4 @@
-package com.hx.springaipg.controller.chatclient;
+package com.hx.springaipg.chatclient;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.metadata.Usage;

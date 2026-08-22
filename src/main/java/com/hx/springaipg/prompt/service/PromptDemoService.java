@@ -1,4 +1,4 @@
-package com.hx.springaipg.controller.prompt.service;
+package com.hx.springaipg.prompt.service;
 
 
 import org.springframework.ai.chat.client.ChatClient;

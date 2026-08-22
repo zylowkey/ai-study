@@ -1,4 +1,4 @@
-package com.hx.springaipg.controller.demo;
+package com.hx.springaipg.demo;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Qualifier;
